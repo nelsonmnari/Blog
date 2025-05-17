@@ -1,0 +1,91 @@
+body {
+  font-family: Georgia, serif;
+  background-color: #fff8f0;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ffcc80;
+  padding: 1em;
+  text-align: center;
+}
+
+nav {
+  background-color: #ffe0b2;
+  padding: 1em;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #6d4c41;
+  text-decoration: none;
+}
+
+.container {
+  padding: 20px;
+}
+
+article {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1.5em;
+  padding-bottom: 1em;
+}
+
+
+.blog-post {
+  max-width: 800px;
+  margin: auto;
+  padding: 2em;
+  background-color: #ffffff;
+  border-radius: 8px;
+  line-height: 1.7;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post h2 {
+  color: #333;
+  margin-bottom: 1em;
+}
+
+.blog-post h3 {
+  color: #005f73;
+  margin-top: 1.5em;
+}
+
+.blog-post p {
+  margin-bottom: 1em;
+  color: #444;
+}
+
+
+
+.separation{
+  margin-top: 20px;
+}
+
+.another{
+  margin-top: 50px;
+}
+
+
+#avocado-recipe button {
+  margin: 0.5em 0.5em 1em 0;
+  padding: 0.5em 1em;
+  border: none;
+  background-color: #2a9d8f;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#avocado-recipe button:hover {
+  background-color: #21867a;
+}
+
+#like-btn.liked {
+  background-color: #e63946;
+}
