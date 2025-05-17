@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog - My Blog</title>
+  <link rel="stylesheet" href="style-blog.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>My Blog Posts</h1>
+  </header>
+  <nav class="navbar">
+    <span class="menu-toggle">☰ Menu</span>
+    <div class="menu">
+      <a href="index.html">Home</a>
+      <a href="blog.html">Blog</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+  <div class="container fade-in">
+    <article class="blog-post separation">
+        <h2>5 Habits That Changed My Life</h2>
+  <p>Over the last two years, I’ve focused on becoming a better version of myself — mentally, physically, and professionally. These five habits have had a profound impact on my life and the way I approach my goals. They’ve helped me stay grounded, grow as a web developer, and find more joy in simple things like food, nature, and time itself.</p>
+
+  <h3>1. Spending Time in Nature</h3>
+  <p>Making time to regularly disconnect from screens and reconnect with nature has been one of the most refreshing changes in my routine. Whether it’s a short morning walk, weekend hikes, or even just sitting outside to feel the sun — nature helps me clear my mind, reduce stress, and return to my work with new energy. Observing how naturally things grow and evolve has taught me patience in both life and code.</p>
+
+  <h3>2. Cooking Healthy, Delicious Meals</h3>
+  <p>Cooking at home became more than just a necessity — it turned into a creative outlet. I've explored simple but flavorful recipes like garlic butter salmon, spicy lentil curry, and banana oat pancakes. Cooking has taught me the value of preparation, balance, and experimentation. Plus, eating well fuels my brain and gives me more energy to code, write, and focus deeply on projects.</p>
+
+  <h3>3. Daily Learning as a Developer</h3>
+  <p>Every day, I dedicate time to learning something new about web development — whether it's a new JavaScript framework, advanced CSS techniques, or improving accessibility. I make it a habit to read documentation, follow developer blogs, and build small side projects. This consistent learning keeps my skills sharp and helps me deliver better work, whether it's a personal site or a professional project for clients.</p>
+
+  <h3>4. Practicing Gratitude and Mindfulness</h3>
+  <p>Starting and ending my day with just a few minutes of reflection has helped me stay calm and focused. I jot down three things I'm grateful for and take a few deep breaths to center myself. This habit not only improves my mood but helps me keep perspective, especially when work gets stressful or I’m troubleshooting complex bugs.</p>
+
+  <h3>5. Minding the Clock (Time Discipline)</h3>
+  <p>Time is the most precious resource, and learning to respect it has been life-changing. I use digital calendars and task managers to plan my days in blocks — work, breaks, meals, and even downtime. Instead of trying to multitask endlessly, I now focus on one thing at a time. This habit has made me more productive and far less anxious, helping me deliver better results both personally and professionally.</p>
+
+  <p>These habits didn’t happen overnight — I built them one small change at a time. But looking back, they’ve created a foundation of consistency, creativity, and calm in my life. I hope they inspire you to start one small habit today that your future self will thank you for.</p>
+    </article>
+
+
+    <article class="blog-post  another" id="avacado-recipe">
+    
+  <h2>Quick & Easy Avocado Toast Recipe</h2>
+  <p>Avocado toast is my go-to breakfast — it’s simple, nutritious, and takes less than 10 minutes to prepare. Click below to expand the full recipe, and don’t forget to like it if you try it!</p>
+
+  <button onclick="toggleRecipe()">📖 Show/Hide Recipe</button>
+  <button onclick="likeRecipe()" id="like-btn">❤️ Like (<span id="like-count">0</span>)</button>
+  <button onclick="window.print()">🖨️ Print Recipe</button>
+
+  <div id="recipe-details" style="display:none;">
+    <h3>🥑 Ingredients</h3>
+    <ul>
+      <li>1 ripe avocado</li>
+      <li>2 slices of whole grain or sourdough bread</li>
+      <li>1/2 lemon or lime (for juice)</li>
+      <li>Salt and pepper to taste</li>
+      <li>Optional toppings: cherry tomatoes, red pepper flakes, a poached egg, feta cheese, or microgreens</li>
+    </ul>
+
+    <h3>🍳 Instructions</h3>
+    <ol>
+      <li>Toast the bread slices until golden and crispy.</li>
+      <li>Cut the avocado, remove the seed, and scoop the flesh into a bowl.</li>
+      <li>Mash the avocado until smooth or chunky.</li>
+      <li>Add lemon or lime juice, salt, and pepper. Mix.</li>
+      <li>Spread over toast and top with your favorites.</li>
+    </ol>
+
+    <h3>💡 Tips & Variations</h3>
+    <p>Try topping with a poached egg or feta for extra flavor. Want spice? Add sriracha or jalapeño. It’s endlessly customizable!</p>
+  </div>
+    </article>
+  </div>
+  <footer>
+    <p>&copy; 2025 My Personal Blog. All rights reserved.</p>
+  </footer>
+
+  <script src="blog.js"></script>
+</body>
+</html>
